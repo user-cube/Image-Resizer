@@ -45,4 +45,5 @@ Take in consideration:
 * **--single** is, by default, 0, if your want use to multiple files user `--single 1 --content your_path`;
 * **--filter** is, by default, 1,  you don't need to write the filter name, just the number;
 * **--h** is, by default, 500px;
-* **-w** is, by default, 500px.
+* **--w** is, by default, 500px.
+* **--ext** is, by default, `.png`
