@@ -47,3 +47,4 @@ Take in consideration:
 * **--h** is, by default, 500px;
 * **--w** is, by default, 500px.
 * **--ext** is, by default, `.png`
+* **--content** if you want use an entire directory make sure that you are using ``--single 1``
