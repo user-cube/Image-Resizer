@@ -11,7 +11,7 @@ $ pip install -r requirements.txt
 ```
 If your default interpreter is python 2 and you have python 3 installed:
 ```bash
-$ python -m venv venv
+$ python3 -m venv venv
 $ source venv/bin/activate
 $ pip install -r requirements.txt
 ```
