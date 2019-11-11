@@ -3,6 +3,12 @@ import os
 import argparse
 
 def resizeImages():
+    """
+    Resize a single or multiple images
+    and stores them with the choosen
+    properties at the selected 
+    output folder.
+    """
     if not os.path.isdir(OUT):
         os.mkdir(OUT)
     
