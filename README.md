@@ -1,4 +1,4 @@
-# Image-Resizer
+# Image Resizer
 A simple python tool to resize multiple (or single) images.
 
 ## Setup
@@ -41,3 +41,8 @@ optional arguments:
   --ext EXT          Output extension file
 
 ```
+Take in consideration:
+* **--single** is, by default, 0, if your want use to multiple files user `--single 1 --content your_path`;
+* **--filter** is, by default, 1,  you don't need to write the filter name, just the number;
+* **--h** is, by default, 500px;
+* **-w** is, by default, 500px.
