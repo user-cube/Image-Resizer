@@ -64,7 +64,7 @@ def resizeImages():
             if EXT == '.jpg':
                 im2 =  im2.convert("RGB")
 
-            im2.save(OUT + i.split(".")[0] + EXT)
+            im2.save(OUT + CONTENT.split(".")[0] + EXT)
 
 
 if __name__ == "__main__":
